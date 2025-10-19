@@ -12,6 +12,12 @@ final class Monitor {
     var lastChecked: Date? = nil
 
     private let url = URL(string: "https://www.jaredcurrie.com/")!
+    var siteName: String {
+        if let host = url.host {
+            return host.replacingOccurrences(of: "www.", with: "")
+        }
+        return url.absoluteString
+    }
     private var task: Task<Void, Never>?
 
     func start() {
@@ -66,9 +72,9 @@ struct MenuContent: View {
 
     private var label: String {
         switch monitor.status {
-        case .up: return "Up"
-        case .down: return "Down"
-        case .unknown: return "Checking…"
+        case .up: return "Up — \(monitor.siteName)"
+        case .down: return "Down — \(monitor.siteName)"
+        case .unknown: return "Checking… — \(monitor.siteName)"
         }
     }
 
@@ -111,3 +117,4 @@ struct UpDotApp: App {
         }
     }
 }
+
