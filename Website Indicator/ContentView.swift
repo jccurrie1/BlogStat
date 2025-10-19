@@ -1,14 +1,15 @@
-import Combine
 import SwiftUI
+import Observation
 import OSLog
 
 private let logger = Logger(subsystem: Bundle.main.bundleIdentifier ?? "UpDot", category: "Monitor")
 
 @MainActor
-final class Monitor: ObservableObject {
+@Observable
+final class Monitor {
     enum Status { case up, down, unknown }
-    @Published var status: Status = .unknown
-    @Published var lastChecked: Date? = nil
+    var status: Status = .unknown
+    var lastChecked: Date? = nil
 
     private let url = URL(string: "https://jaredcurrie.com")!
     private var altURL: URL? {
@@ -160,7 +161,7 @@ final class Monitor: ObservableObject {
 }
 
 struct MenuContent: View {
-    @EnvironmentObject var monitor: Monitor
+    @Environment(Monitor.self) private var monitor
 
     private var label: String {
         switch monitor.status {
@@ -195,12 +196,12 @@ struct MenuContent: View {
 
 @main
 struct UpDotApp: App {
-    @StateObject private var monitor = Monitor()
+    @State private var monitor = Monitor()
 
     var body: some Scene {
         MenuBarExtra {
             MenuContent()
-                .environmentObject(monitor)
+                .environment(monitor)
                 .onAppear { logger.log("MenuBarExtra content appeared") }
         } label: {
             Image(systemName: monitor.status == .up ? "checkmark.circle.fill" :
