@@ -5,13 +5,13 @@
 //  Created by Jared Currie on 10/18/25.
 //
 
-import SwiftUI
-
-@main
-struct Website_IndicatorApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
+//import SwiftUI
+//
+//@main
+//struct Website_IndicatorApp: App {
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//        }
+//    }
+//}
