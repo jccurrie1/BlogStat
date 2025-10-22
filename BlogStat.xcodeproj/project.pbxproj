@@ -27,6 +27,7 @@
 		F62B370D2EA488C500EBD626 /* BlogStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62B371A2EA488C600EBD626 /* BlogStatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogStatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62B37242EA488C600EBD626 /* BlogStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F679862B2EA85C9D00EC92D5 /* BlogStat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BlogStat-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		F62B37042EA488C500EBD626 = {
 			isa = PBXGroup;
 			children = (
+				F679862B2EA85C9D00EC92D5 /* BlogStat-Info.plist */,
 				F62B370F2EA488C500EBD626 /* Website Indicator */,
 				F62B371D2EA488C600EBD626 /* Website IndicatorTests */,
 				F62B37272EA488C600EBD626 /* Website IndicatorUITests */,
@@ -413,6 +415,9 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlogStat-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +460,9 @@
 				ENABLE_RESOURCE_ACCESS_USB = NO;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BlogStat-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
