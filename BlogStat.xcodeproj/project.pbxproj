@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F62B370D2EA488C500EBD626 /* Website Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Website Indicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F62B371A2EA488C600EBD626 /* Website IndicatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Website IndicatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F62B37242EA488C600EBD626 /* Website IndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Website IndicatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62B370D2EA488C500EBD626 /* BlogStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62B371A2EA488C600EBD626 /* BlogStatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogStatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62B37242EA488C600EBD626 /* BlogStatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogStatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -85,9 +85,9 @@
 		F62B370E2EA488C500EBD626 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F62B370D2EA488C500EBD626 /* Website Indicator.app */,
-				F62B371A2EA488C600EBD626 /* Website IndicatorTests.xctest */,
-				F62B37242EA488C600EBD626 /* Website IndicatorUITests.xctest */,
+				F62B370D2EA488C500EBD626 /* BlogStat.app */,
+				F62B371A2EA488C600EBD626 /* BlogStatTests.xctest */,
+				F62B37242EA488C600EBD626 /* BlogStatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F62B370C2EA488C500EBD626 /* Website Indicator */ = {
+		F62B370C2EA488C500EBD626 /* BlogStat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F62B372E2EA488C600EBD626 /* Build configuration list for PBXNativeTarget "Website Indicator" */;
+			buildConfigurationList = F62B372E2EA488C600EBD626 /* Build configuration list for PBXNativeTarget "BlogStat" */;
 			buildPhases = (
 				F62B37092EA488C500EBD626 /* Sources */,
 				F62B370A2EA488C500EBD626 /* Frameworks */,
@@ -110,16 +110,16 @@
 			fileSystemSynchronizedGroups = (
 				F62B370F2EA488C500EBD626 /* Website Indicator */,
 			);
-			name = "Website Indicator";
+			name = BlogStat;
 			packageProductDependencies = (
 			);
 			productName = "Website Indicator";
-			productReference = F62B370D2EA488C500EBD626 /* Website Indicator.app */;
+			productReference = F62B370D2EA488C500EBD626 /* BlogStat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F62B37192EA488C600EBD626 /* Website IndicatorTests */ = {
+		F62B37192EA488C600EBD626 /* BlogStatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F62B37312EA488C600EBD626 /* Build configuration list for PBXNativeTarget "Website IndicatorTests" */;
+			buildConfigurationList = F62B37312EA488C600EBD626 /* Build configuration list for PBXNativeTarget "BlogStatTests" */;
 			buildPhases = (
 				F62B37162EA488C600EBD626 /* Sources */,
 				F62B37172EA488C600EBD626 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				F62B371D2EA488C600EBD626 /* Website IndicatorTests */,
 			);
-			name = "Website IndicatorTests";
+			name = BlogStatTests;
 			packageProductDependencies = (
 			);
 			productName = "Website IndicatorTests";
-			productReference = F62B371A2EA488C600EBD626 /* Website IndicatorTests.xctest */;
+			productReference = F62B371A2EA488C600EBD626 /* BlogStatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F62B37232EA488C600EBD626 /* Website IndicatorUITests */ = {
+		F62B37232EA488C600EBD626 /* BlogStatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F62B37342EA488C600EBD626 /* Build configuration list for PBXNativeTarget "Website IndicatorUITests" */;
+			buildConfigurationList = F62B37342EA488C600EBD626 /* Build configuration list for PBXNativeTarget "BlogStatUITests" */;
 			buildPhases = (
 				F62B37202EA488C600EBD626 /* Sources */,
 				F62B37212EA488C600EBD626 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				F62B37272EA488C600EBD626 /* Website IndicatorUITests */,
 			);
-			name = "Website IndicatorUITests";
+			name = BlogStatUITests;
 			packageProductDependencies = (
 			);
 			productName = "Website IndicatorUITests";
-			productReference = F62B37242EA488C600EBD626 /* Website IndicatorUITests.xctest */;
+			productReference = F62B37242EA488C600EBD626 /* BlogStatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F62B37082EA488C500EBD626 /* Build configuration list for PBXProject "Website Indicator" */;
+			buildConfigurationList = F62B37082EA488C500EBD626 /* Build configuration list for PBXProject "BlogStat" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F62B370C2EA488C500EBD626 /* Website Indicator */,
-				F62B37192EA488C600EBD626 /* Website IndicatorTests */,
-				F62B37232EA488C600EBD626 /* Website IndicatorUITests */,
+				F62B370C2EA488C500EBD626 /* BlogStat */,
+				F62B37192EA488C600EBD626 /* BlogStatTests */,
+				F62B37232EA488C600EBD626 /* BlogStatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		F62B371C2EA488C600EBD626 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F62B370C2EA488C500EBD626 /* Website Indicator */;
+			target = F62B370C2EA488C500EBD626 /* BlogStat */;
 			targetProxy = F62B371B2EA488C600EBD626 /* PBXContainerItemProxy */;
 		};
 		F62B37262EA488C600EBD626 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F62B370C2EA488C500EBD626 /* Website Indicator */;
+			target = F62B370C2EA488C500EBD626 /* BlogStat */;
 			targetProxy = F62B37252EA488C600EBD626 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -490,7 +490,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Website Indicator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Website Indicator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogStat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlogStat";
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Website Indicator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Website Indicator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlogStat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlogStat";
 			};
 			name = Release;
 		};
@@ -556,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F62B37082EA488C500EBD626 /* Build configuration list for PBXProject "Website Indicator" */ = {
+		F62B37082EA488C500EBD626 /* Build configuration list for PBXProject "BlogStat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F62B372C2EA488C600EBD626 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F62B372E2EA488C600EBD626 /* Build configuration list for PBXNativeTarget "Website Indicator" */ = {
+		F62B372E2EA488C600EBD626 /* Build configuration list for PBXNativeTarget "BlogStat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F62B372F2EA488C600EBD626 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F62B37312EA488C600EBD626 /* Build configuration list for PBXNativeTarget "Website IndicatorTests" */ = {
+		F62B37312EA488C600EBD626 /* Build configuration list for PBXNativeTarget "BlogStatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F62B37322EA488C600EBD626 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F62B37342EA488C600EBD626 /* Build configuration list for PBXNativeTarget "Website IndicatorUITests" */ = {
+		F62B37342EA488C600EBD626 /* Build configuration list for PBXNativeTarget "BlogStatUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F62B37352EA488C600EBD626 /* Debug */,

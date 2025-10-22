@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F62B370C2EA488C500EBD626"
-               BuildableName = "Website Indicator.app"
-               BlueprintName = "Website Indicator"
-               ReferencedContainer = "container:Website Indicator.xcodeproj">
+               BuildableName = "BlogStat.app"
+               BlueprintName = "BlogStat"
+               ReferencedContainer = "container:BlogStat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F62B37192EA488C600EBD626"
-               BuildableName = "Website IndicatorTests.xctest"
-               BlueprintName = "Website IndicatorTests"
-               ReferencedContainer = "container:Website Indicator.xcodeproj">
+               BuildableName = "BlogStatTests.xctest"
+               BlueprintName = "BlogStatTests"
+               ReferencedContainer = "container:BlogStat.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F62B37232EA488C600EBD626"
-               BuildableName = "Website IndicatorUITests.xctest"
-               BlueprintName = "Website IndicatorUITests"
-               ReferencedContainer = "container:Website Indicator.xcodeproj">
+               BuildableName = "BlogStatUITests.xctest"
+               BlueprintName = "BlogStatUITests"
+               ReferencedContainer = "container:BlogStat.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F62B370C2EA488C500EBD626"
-            BuildableName = "Website Indicator.app"
-            BlueprintName = "Website Indicator"
-            ReferencedContainer = "container:Website Indicator.xcodeproj">
+            BuildableName = "BlogStat.app"
+            BlueprintName = "BlogStat"
+            ReferencedContainer = "container:BlogStat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F62B370C2EA488C500EBD626"
-            BuildableName = "Website Indicator.app"
-            BlueprintName = "Website Indicator"
-            ReferencedContainer = "container:Website Indicator.xcodeproj">
+            BuildableName = "BlogStat.app"
+            BlueprintName = "BlogStat"
+            ReferencedContainer = "container:BlogStat.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
