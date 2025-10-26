@@ -1,13 +1,13 @@
 //
-//  Blog_StatusUITests.swift
-//  Blog StatusUITests
+//  BlogStatUITests.swift
+//  BlogStatUITests
 //
-//  Created by Jared Currie on 10/21/25.
+//  Created by Jared Currie on 10/18/25.
 //
 
 import XCTest
 
-final class Blog_StatusUITests: XCTestCase {
+final class BlogStatUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

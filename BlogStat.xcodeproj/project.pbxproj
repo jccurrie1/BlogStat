@@ -12,14 +12,14 @@
 			containerPortal = F62B37052EA488C500EBD626 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F62B370C2EA488C500EBD626;
-			remoteInfo = "Website Indicator";
+			remoteInfo = "BlogStat";
 		};
 		F62B37252EA488C600EBD626 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F62B37052EA488C500EBD626 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F62B370C2EA488C500EBD626;
-			remoteInfo = "Website Indicator";
+			remoteInfo = "BlogStat";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -31,19 +31,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F62B370F2EA488C500EBD626 /* Website Indicator */ = {
+		F62B370F2EA488C500EBD626 /* BlogStat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Website Indicator";
+			path = "BlogStat";
 			sourceTree = "<group>";
 		};
-		F62B371D2EA488C600EBD626 /* Website IndicatorTests */ = {
+		F62B371D2EA488C600EBD626 /* BlogStatTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Website IndicatorTests";
+			path = "BlogStatTests";
 			sourceTree = "<group>";
 		};
-		F62B37272EA488C600EBD626 /* Website IndicatorUITests */ = {
+		F62B37272EA488C600EBD626 /* BlogStatUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Website IndicatorUITests";
+			path = "BlogStatUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -77,9 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				F679862B2EA85C9D00EC92D5 /* BlogStat-Info.plist */,
-				F62B370F2EA488C500EBD626 /* Website Indicator */,
-				F62B371D2EA488C600EBD626 /* Website IndicatorTests */,
-				F62B37272EA488C600EBD626 /* Website IndicatorUITests */,
+				F62B370F2EA488C500EBD626 /* BlogStat */,
+				F62B371D2EA488C600EBD626 /* BlogStatTests */,
+				F62B37272EA488C600EBD626 /* BlogStatUITests */,
 				F62B370E2EA488C500EBD626 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,12 +110,12 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F62B370F2EA488C500EBD626 /* Website Indicator */,
+				F62B370F2EA488C500EBD626 /* BlogStat */,
 			);
 			name = BlogStat;
 			packageProductDependencies = (
 			);
-			productName = "Website Indicator";
+			productName = "BlogStat";
 			productReference = F62B370D2EA488C500EBD626 /* BlogStat.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -133,12 +133,12 @@
 				F62B371C2EA488C600EBD626 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F62B371D2EA488C600EBD626 /* Website IndicatorTests */,
+				F62B371D2EA488C600EBD626 /* BlogStatTests */,
 			);
 			name = BlogStatTests;
 			packageProductDependencies = (
 			);
-			productName = "Website IndicatorTests";
+			productName = "BlogStatTests";
 			productReference = F62B371A2EA488C600EBD626 /* BlogStatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -156,12 +156,12 @@
 				F62B37262EA488C600EBD626 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				F62B37272EA488C600EBD626 /* Website IndicatorUITests */,
+				F62B37272EA488C600EBD626 /* BlogStatUITests */,
 			);
 			name = BlogStatUITests;
 			packageProductDependencies = (
 			);
-			productName = "Website IndicatorUITests";
+			productName = "BlogStatUITests";
 			productReference = F62B37242EA488C600EBD626 /* BlogStatUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -424,7 +424,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Website-Indicator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.BlogStat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -469,7 +469,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Website-Indicator";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.BlogStat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -491,7 +491,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Website-IndicatorTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.BlogStatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -512,7 +512,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Website-IndicatorTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.BlogStatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -531,14 +531,14 @@
 				DEVELOPMENT_TEAM = YUQQ6SZGXX;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Website-IndicatorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.BlogStatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Website Indicator";
+				TEST_TARGET_NAME = "BlogStat";
 			};
 			name = Debug;
 		};
@@ -550,14 +550,14 @@
 				DEVELOPMENT_TEAM = YUQQ6SZGXX;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Website-IndicatorUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.BlogStatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Website Indicator";
+				TEST_TARGET_NAME = "BlogStat";
 			};
 			name = Release;
 		};

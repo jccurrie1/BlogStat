@@ -1,13 +1,13 @@
 //
-//  Blog_StatusUITestsLaunchTests.swift
-//  Blog StatusUITests
+//  BlogStatUITestsLaunchTests.swift
+//  BlogStatUITests
 //
-//  Created by Jared Currie on 10/21/25.
+//  Created by Jared Currie on 10/18/25.
 //
 
 import XCTest
 
-final class Blog_StatusUITestsLaunchTests: XCTestCase {
+final class BlogStatUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

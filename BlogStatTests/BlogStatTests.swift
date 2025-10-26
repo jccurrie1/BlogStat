@@ -1,14 +1,14 @@
 //
-//  Blog_StatusTests.swift
-//  Blog StatusTests
+//  BlogStatTests.swift
+//  BlogStatTests
 //
-//  Created by Jared Currie on 10/21/25.
+//  Created by Jared Currie on 10/18/25.
 //
 
 import Testing
-@testable import Blog_Status
+@testable import BlogStat
 
-struct Blog_StatusTests {
+struct BlogStatTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
