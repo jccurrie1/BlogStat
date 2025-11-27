@@ -1,5 +1,7 @@
 # BlogStat
 
+<img src="BlogStat/Assets.xcassets/AppIcon.appiconset/Asset%201.png" alt="BlogStat icon" width="50" height="50" />
+
 BlogStat is a lightweight macOS menu bar utility that keeps an eye on a single website and reports whether it is up, down, or still being checked. It is designed for personal monitoring and runs quietly from the menu bar.
 
 ## Highlights
